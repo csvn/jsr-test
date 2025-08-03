@@ -14,7 +14,7 @@
  */
 
 /** `csvn` linting plugin (for testing) */
-export default {
+const plugin: Deno.lint.Plugin = {
   name: "csvn",
   rules: {
     test: {
@@ -35,4 +35,6 @@ export default {
       },
     }
   },
-} satisfies Deno.lint.Plugin;
+};
+
+export default plugin;
