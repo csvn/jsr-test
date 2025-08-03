@@ -1,0 +1,9 @@
+{
+  "name": "@csvn/jsr-test",
+  "version": "0.0.1",
+  "description": "A simple package for testing JSR.",
+  "exports": {
+    ".": "./mod.ts",
+    "./lint": "./lint/mod.ts"
+  }
+}
