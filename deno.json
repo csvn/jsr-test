@@ -2,6 +2,7 @@
   "name": "@csvn/jsr-test",
   "version": "0.0.1",
   "description": "A simple package for testing JSR.",
+  "license": "Unlicense",
   "exports": {
     ".": "./src/mod.ts",
     "./lint": "./src/lint/mod.ts"
